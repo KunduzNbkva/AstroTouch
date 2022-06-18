@@ -8,12 +8,35 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet var myButton: UIButton!
+    var isRed: Bool = true
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+       
+     
     }
 
-
+   
+    
+    @IBAction func myButtonClicked(_ sender: UIButton) {
+        if (isRed) {
+            self.view.backgroundColor = .blue
+        } else {
+            self.view.backgroundColor = .red
+        }
+        isRed = !isRed
+    }
+    
+    func someNewMethod(){
+        
+    }
+    
+    func setupView(){
+        view.backgroundColor = .systemRed
+    }
+    
+    
+    
 }
 
