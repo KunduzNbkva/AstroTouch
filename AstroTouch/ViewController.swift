@@ -1,7 +1,4 @@
-//
-//  ViewController.swift
-//  AstroTouch
-//
+
 //  Created by Kunduz on 18.06.2022.
 //
 
